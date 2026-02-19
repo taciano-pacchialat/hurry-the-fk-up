@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/usr/lib/avr/include",
+        "/usr/lib/gcc/avr/*/include",
+        "/usr/lib/gcc/avr/*/include-fixed"
+      ],
+      "defines": ["F_CPU=8000000UL", "__AVR_ATmega328P__"],
+      "compilerPath": "/usr/bin/avr-gcc",
+      "compilerArgs": ["-mmcu=atmega328p"],
+      "cStandard": "c17",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}
